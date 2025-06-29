@@ -41,9 +41,15 @@ This project applies unsupervised learning techniques to discover patterns in un
 - **PCA**: Reduces noise and sparsity
 - **t-SNE**: Maps high-dimensional features to 2D for visualization
 
-### 3. Clustering Algorithms
-- **K-Means**: Optimal `k=4` (via Elbow Method)
-- **DBSCAN**: `eps=0.5`, `min_samples=5`
+### 3. Cluster Count Selection
+
+The Elbow Method and Silhouette Analysis were used to determine the optimal number of clusters:
+
+- The **Elbow Method** showed a clear "elbow" at **k=4**, indicating a point of diminishing returns in inertia reduction.
+- Although the **Silhouette Score** peaked at **k=2**, this often favors fewer clusters and may miss finer structure.
+  
+➡️ **Final Decision**: We selected **k=4** based on the elbow point and the trend in silhouette scores, which balanced interpretability and structure.
+
 
 ### 4. Evaluation Metrics
 - **Silhouette Score**

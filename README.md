@@ -1,6 +1,6 @@
 # Sound Data Clustering Analysis
 
-![Clustering Visualization](images/clusters.png)  
+![Clustering Visualization](images/comparison_plot.png)  
 *Example t-SNE Cluster Visualization*
 
 ---

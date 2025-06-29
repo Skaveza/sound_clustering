@@ -46,15 +46,18 @@ This project applies unsupervised learning techniques to discover patterns in un
 The Elbow Method and Silhouette Analysis were used to determine the optimal number of clusters:
 
 - The **Elbow Method** showed a clear "elbow" at **k=4**, indicating a point of diminishing returns in inertia reduction.
-- Although the **Silhouette Score** peaked at **k=2**, this often favors fewer clusters and may miss finer structure.
-  
-➡️ **Final Decision**: We selected **k=4** based on the elbow point and the trend in silhouette scores, which balanced interpretability and structure.
+- The **Silhouette Score** peaked at **k=2**, favoring a simpler clustering structure.
 
+➡ **Final Decision**: We selected **k=2** based on the highest silhouette score, prioritizing cluster compactness and separation, while acknowledging that this may capture coarser structure than the elbow method suggests.
+
+---
 
 ### 4. Evaluation Metrics
-- **Silhouette Score**
-- **Davies-Bouldin Index**
+
+- **Silhouette Score**  
+- **Davies-Bouldin Index**  
 - **Visual validation** using t-SNE plots
+
 
 ---
 ##  Key Findings

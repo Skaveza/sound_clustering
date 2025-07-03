@@ -15,14 +15,14 @@ This project applies unsupervised learning techniques to discover patterns in un
 
 ---
 
-## 📊 Key Results
+##  Key Results
 
 | Algorithm | Silhouette Score | Davies-Bouldin Index |
 |-----------|------------------|----------------------|
 | **K-Means** | **0.52**           | 2.18                 |
 | DBSCAN    | 0.04             | **2.06**             |
 
->  **Best Performing Method:**  
+  **Best Performing Method:**  
 **K-Means** achieved the highest silhouette score, indicating more cohesive and well-separated clusters for this dataset.
 
 ---
@@ -30,7 +30,7 @@ This project applies unsupervised learning techniques to discover patterns in un
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### 1. Feature Extraction
 - Mel Spectrograms (128 Mel bands)

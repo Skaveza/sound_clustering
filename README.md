@@ -48,7 +48,7 @@ The Elbow Method and Silhouette Analysis were used to determine the optimal numb
 - The **Elbow Method** showed a clear "elbow" at **k=4**, indicating a point of diminishing returns in inertia reduction.
 - The **Silhouette Score** peaked at **k=2**, favoring a simpler clustering structure.
 
-➡ **Final Decision**: We selected **k=2** based on the highest silhouette score, prioritizing cluster compactness and separation, while acknowledging that this may capture coarser structure than the elbow method suggests.
+ **Final Decision**: We selected **k=2** based on the highest silhouette score, prioritizing cluster compactness and separation, while acknowledging that this may capture coarser structure than the elbow method suggests.
 
 ---
 
